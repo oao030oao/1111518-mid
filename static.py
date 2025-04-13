@@ -36,5 +36,3 @@ for row in rows:
 
 with open("static.json", "w", encoding="utf-8") as f:
     json.dump(movies, f, ensure_ascii=False, indent=4)
-
-print("✅ 電影名稱和票房已清理完畢，輸出至 static.json")
