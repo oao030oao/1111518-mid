@@ -3,7 +3,7 @@ run-name: spyder
 
 on:
   schedule:
-    - cron: "20 6 * * *"   # 每天 00:00 (UTC) 執行
+    - cron: "26 6 * * *"   # 每天 00:00 (UTC) 執行
   workflow_dispatch:        # 手動觸發
 
 permissions:
