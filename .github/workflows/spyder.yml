@@ -31,8 +31,8 @@ jobs:
 
       - name: Commit output files
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config --global user.name "spyder-bot"
+          git config --global user.email "spyder-bot@gmail.com"
           git add static.json api.csv
-          git commit -m "Update static.json and api.csv from workflow" || echo "No changes"
-          git push
+          git commit -m"daily"
+          git push origin main
