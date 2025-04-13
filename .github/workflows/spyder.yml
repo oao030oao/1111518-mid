@@ -2,7 +2,7 @@ name: spyder
 run-name: spyder
 on:
   schedule:
-    - cron: "25 6 * * *"  # 每天 UTC 6:25 執行 (台灣時間下午2:25)
+    - cron: "30 6 * * *"  # 每天 UTC 6:25 執行 (台灣時間下午2:25)
   workflow_dispatch:       # 手動執行也可以
 
 permissions:
